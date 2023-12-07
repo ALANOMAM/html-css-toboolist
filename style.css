@@ -50,7 +50,8 @@ nav{
 padding: 8px;
 border-style: none;
 border-radius: 5px;  
-background-color: rgb(97, 214, 253);
+background-color: #47acf0;
+border-color: #47acf0;
 color:white
 }
 
@@ -83,27 +84,48 @@ span{
     font-weight: lighter;
 }
 .check{
-color: rgb(87, 255, 87);
-border-width: 2px;
-border-style: solid;
-border-radius: 15px;
-margin-right: 10px;
+    display: inline-block; /* cosi lo span passa da inline (con dimensioni fisse ) ad un ibrido inline-block(con dimensioni modificabili)*/
 
+    width: 24px;
+    height: 24px;
+    
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    
+    margin-right: 10px;
+    
+    text-align: center;
+        
+    
+    color: #61BEA7;
+    border-color: #61BEA7;
 }
 
 .cross{   
-color:red;
+display: inline-block; /* cosi lo span passa da inline (con dimensioni fisse ) ad un ibrido inline-block(con dimensioni modificabili)*/
+
+width: 24px;
+height: 24px;
+
 border-width: 2px;
 border-style: solid;
-border-radius: 15px;
+border-radius: 50%;
+
 margin-right: 10px;
+
+text-align: center;
+    
+
+color: #E7372F;
+border-color:#E7372F;
 
 }
 
 
 /*nomi evidenziati inizio*/
 .editorial{
-    background-color: rgb(97, 214, 253);
+    background-color: #47acf0;
     color: white;
     padding:5px;
     border-radius: 15px;
@@ -111,7 +133,7 @@ margin-right: 10px;
 }
 
 .goals{
-    background-color:rgb(196, 75, 196);
+    background-color:#9b72e3;
     color:white;
     padding:5px;
     border-radius: 15px;
@@ -119,28 +141,28 @@ margin-right: 10px;
 }
 
 .recruiting{
-    background-color:rgb(111, 197, 111);
+    background-color:#64bfa8;
     color:white;
     padding:5px;
     border-radius: 15px;
     font-size: 12px;
 }
 .mobile{
-    background-color:orange;
+    background-color:#f19d33;
     color:white;
     padding:5px;
     border-radius: 15px;
     font-size: 12px;
 }
 .website{
-    background-color:violet;
+    background-color:#d763a0;
     color:white;
     padding:5px;
     border-radius: 15px;
     font-size: 12px;
 }
 .sales{
-    background-color: rgb(137, 204, 38);
+    background-color: #afc826;
     color:white;
     padding:5px;
     border-radius: 15px;
